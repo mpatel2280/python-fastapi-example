@@ -1,0 +1,16 @@
+python3 -m venv .venv_fastapi_example
+
+source .venv_fastapi_example/bin/activate
+
+
+https://fastapi.tiangolo.com/
+
+pip install fastapi
+
+fastapi dev main.py
+
+http://127.0.0.1:8000
+
+http://127.0.0.1:8000/docs
+
+http://127.0.0.1:8000/items/5?q=somequery
